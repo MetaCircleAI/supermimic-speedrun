@@ -1,0 +1,12 @@
+{
+  "iteration": 2600,
+  "bytes": 48662980,
+  "saved_at": 1794162666.0156248,
+  "identity": {
+    "candidate": "return_speed_v1_t002",
+    "data": "5d815fd8039c4e4938a6c049935b8d712f81f483116ce69518c8a8298290017a",
+    "profile": "speedrun_v1_t002_seed1_final_only",
+    "code": "9bf07d45e97b0338835027ce30a4f587873fd81cb033e19490c9f17bd57fdb69"
+  },
+  "resume_level": "evaluation_weights"
+}

@@ -1,0 +1,16 @@
+{
+  "pi_opt": "muon",
+  "wm_opt": "muon",
+  "opt_pi": {
+    "muon_params": 1622016,
+    "muon_tensors": 15,
+    "adam_params": 43165,
+    "capturable": false
+  },
+  "opt_wm": {
+    "muon_params": 8388608,
+    "muon_tensors": 2,
+    "adam_params": 434246,
+    "capturable": true
+  }
+}

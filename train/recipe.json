@@ -1,0 +1,10 @@
+{
+  "profile": "speedrun_train",
+  "iterations": 1600,
+  "overrides": {
+    "algo.pi_opt": "muon",
+    "algo.wm_opt": "muon",
+    "algo.lr": 0.0012,
+    "algo.ckpt_every": 1000
+  }
+}

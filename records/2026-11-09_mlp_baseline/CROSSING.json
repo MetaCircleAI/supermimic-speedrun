@@ -1,0 +1,10 @@
+{
+  "first_full_library_checkpoint_above_target": 6400,
+  "norm_return": 0.936398983001709,
+  "learner_seconds_at_6400": 3919.8959999999997,
+  "learner_minutes_at_6400": 65.3316,
+  "previous_full_library_checkpoint": 6300,
+  "ckpt_006400_sha256": "65423bd0b1a08aab1af52282cc81ac2958abb8356b3131860aa01b2c7c0b9b36",
+  "ckpt_006400_bytes": 108262426,
+  "timing": "upstream learner wall time (train_log.csv wall_h); excludes the 64-step replay prefill; dense run with numbered checkpoint exports"
+}

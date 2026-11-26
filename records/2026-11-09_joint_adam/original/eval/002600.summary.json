@@ -1,0 +1,21 @@
+{
+  "norm_return": 0.936464250087738,
+  "norm_return_framew": 0.9399190545082092,
+  "n_failed": 433,
+  "checkpoint_iteration": 2600,
+  "training_wall_seconds": 1646.5960857868195,
+  "evaluation_wall_seconds": 1101.1690278053284,
+  "evaluation_scope": "full_library",
+  "n_clips": 129487,
+  "failure_rate": 0.003343965031238657,
+  "experiment_identity": {
+    "candidate": "return_speed_v1_t002",
+    "data": "5d815fd8039c4e4938a6c049935b8d712f81f483116ce69518c8a8298290017a",
+    "profile": "speedrun_v1_t002_seed1_final_only",
+    "code": "9bf07d45e97b0338835027ce30a4f587873fd81cb033e19490c9f17bd57fdb69"
+  },
+  "checkpoint_sha256": "45039afdf2230abaf2f0b2994361235daaa3b17fe7df1e29934fc847a1a8ed8d",
+  "eval_completed_at": 1794163770.344767,
+  "evaluator_version": "infra_v3_terminal_bin_fix",
+  "eval_seed": 0
+}

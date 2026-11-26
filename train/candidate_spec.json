@@ -1,0 +1,37 @@
+{
+  "kind": "token_dag",
+  "name": "Joint return-speed t002",
+  "origin": "hyperparameter_search",
+  "candidate_id": "return_speed_v1_t002",
+  "candidate_sha256": "df9a4634f2e66057c737fe004d362d0749eb769a6b897df40d49304763368ffa",
+  "architecture_contract_sha256": "5ae054c99e0d9a2ca29b464d50638457b5e8ef58aba5884cb21f21b69909b8a5",
+  "spec": {
+    "nodes": [
+      {
+        "h": "H0",
+        "id": "n0",
+        "op": "joint_attention",
+        "r": "R0"
+      },
+      {
+        "id": "n1",
+        "input": "n0.H",
+        "op": "swiglu"
+      },
+      {
+        "id": "n2",
+        "input": "n0.R",
+        "op": "swiglu"
+      }
+    ],
+    "readout": {
+      "sources": [
+        "n1",
+        "n2"
+      ]
+    },
+    "schema": "supermimic.policy.token_dag.v1"
+  },
+  "index": 6,
+  "seed": 1
+}

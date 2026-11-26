@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "reason": "iteration budget reached",
+  "iteration": 2600,
+  "target_iterations": 2600,
+  "learner_wall_time_upstream": 1649.3281834125519,
+  "process_seconds": 1674.7931611966342,
+  "finished_at": 1794162666.0238087,
+  "gpu": "1",
+  "max_cuda_allocated": 35604501504,
+  "policy_recompute": false,
+  "torch": "2.9.1+cu126",
+  "device": "NVIDIA H100 80GB HBM3",
+  "speedrun_seconds": 1654.1848791781813,
+  "prefill_seconds": 6.827446460723877,
+  "prefill_steps": 64,
+  "final_checkpoint": "ckpt_002600.pt",
+  "timing_definition": "first simulator step of replay prefill -> final checkpoint flushed; startup and evaluation excluded"
+}

@@ -1,0 +1,133 @@
+{
+  "run_code_sha256": "9bf07d45e97b0338835027ce30a4f587873fd81cb033e19490c9f17bd57fdb69",
+  "note": "The run identity hashes every file of the run code directory (code_files below, from the campaign plan written before launch). Published files are byte-identical to those files, except code/common.py, whose three machine paths are made portable.",
+  "files": {
+    "candidate_spec.json": {
+      "published_sha256": "e4ffafc084042edd5e339e19c7a290821b4a3fd80b2822795caa5710969d374a",
+      "run_sha256": "e4ffafc084042edd5e339e19c7a290821b4a3fd80b2822795caa5710969d374a",
+      "identical": true
+    },
+    "code/common.py": {
+      "published_sha256": "f213d9c16ef4b2960749d02b5aba7036366aee8acec1f861fa5ed6aa1774c8be",
+      "run_sha256": "64baea078c7d0bd9e3a1c5885a20092d39842a5bc73b9afb944e3b43e2f1b520",
+      "identical": false
+    },
+    "code/engine/install_fast.py": {
+      "published_sha256": "f1b928d919cb4b8cd08ca499ade833d4315562b7cc56c9fb1a646a0386ecfe0c",
+      "run_sha256": "f1b928d919cb4b8cd08ca499ade833d4315562b7cc56c9fb1a646a0386ecfe0c",
+      "identical": true
+    },
+    "code/engine/install_wmgraph.py": {
+      "published_sha256": "b9a81cb2143275c42608afc147e96c8978cde96afdc881aee6de0855e0c30132",
+      "run_sha256": "b9a81cb2143275c42608afc147e96c8978cde96afdc881aee6de0855e0c30132",
+      "identical": true
+    },
+    "code/engine/learner_optimized.build.json": {
+      "published_sha256": "c817cca84182efd276eb1007cd686b9970b13b9cdf5a46d021db0a69e5bb31b6",
+      "run_sha256": "c817cca84182efd276eb1007cd686b9970b13b9cdf5a46d021db0a69e5bb31b6",
+      "identical": true
+    },
+    "code/engine/learner_optimized.py": {
+      "published_sha256": "26799073e95f56014e4c4737c8c510bb74c127453cdd8f9eeee717bf9e969c08",
+      "run_sha256": "26799073e95f56014e4c4737c8c510bb74c127453cdd8f9eeee717bf9e969c08",
+      "identical": true
+    },
+    "code/engine/train_entry_wmgraph.py": {
+      "published_sha256": "8fb4f64973fa7e7da7cb59feb7aac67029e4523d3562719a40590b4197425da8",
+      "run_sha256": "8fb4f64973fa7e7da7cb59feb7aac67029e4523d3562719a40590b4197425da8",
+      "identical": true
+    },
+    "code/engine/wm_graph.py": {
+      "published_sha256": "6d901e0d1ebb76a33b699b01a801c69ace05e37cbf71fcfff7dbfa6ae0d6a798",
+      "run_sha256": "6d901e0d1ebb76a33b699b01a801c69ace05e37cbf71fcfff7dbfa6ae0d6a798",
+      "identical": true
+    },
+    "code/engine/wmgraph.build.json": {
+      "published_sha256": "de848b28eee3ae91fa548de9e74154f2b8a585305a095e56c72bb8012e4e058f",
+      "run_sha256": "de848b28eee3ae91fa548de9e74154f2b8a585305a095e56c72bb8012e4e058f",
+      "identical": true
+    },
+    "code/eval_one.py": {
+      "published_sha256": "4b8953bf770b0f2d3b8597a9093a5ff98292953a25602960d2da94018ab9d781",
+      "run_sha256": "4b8953bf770b0f2d3b8597a9093a5ff98292953a25602960d2da94018ab9d781",
+      "identical": true
+    },
+    "code/launch_train.py": {
+      "published_sha256": "4e93a330aa629ee1a8fe9fa0f843d04cd5728ced33e5072a14d425779ce8de0c",
+      "run_sha256": "4e93a330aa629ee1a8fe9fa0f843d04cd5728ced33e5072a14d425779ce8de0c",
+      "identical": true
+    },
+    "code/runtime/boundary_fix.py": {
+      "published_sha256": "f3af1a9cbbb23355622aa64267e2e5fb7e0f4904de036d722535e93b64bf0a4c",
+      "run_sha256": "f3af1a9cbbb23355622aa64267e2e5fb7e0f4904de036d722535e93b64bf0a4c",
+      "identical": true
+    },
+    "code/runtime/hooks.py": {
+      "published_sha256": "1b41033089d12c9d5613963970feea671cc003e78eea499ac539fb2b093a2119",
+      "run_sha256": "1b41033089d12c9d5613963970feea671cc003e78eea499ac539fb2b093a2119",
+      "identical": true
+    },
+    "code/runtime/policy_dag.py": {
+      "published_sha256": "f022fcf9f8aa5a5cbeeb88f9e8fd6c24ab9a83fd76363dd33200879129942cff",
+      "run_sha256": "f022fcf9f8aa5a5cbeeb88f9e8fd6c24ab9a83fd76363dd33200879129942cff",
+      "identical": true
+    },
+    "code/runtime/specs.py": {
+      "published_sha256": "b269a93376ecfa8c9f7dd72931d794e460133b408537b09ddf5a72094113e041",
+      "run_sha256": "b269a93376ecfa8c9f7dd72931d794e460133b408537b09ddf5a72094113e041",
+      "identical": true
+    },
+    "code/train_entry.py": {
+      "published_sha256": "e9552b2a0deb2f5318e9dafcecc54c8647f817a068ed9ea87bdf17db533a2d66",
+      "run_sha256": "e9552b2a0deb2f5318e9dafcecc54c8647f817a068ed9ea87bdf17db533a2d66",
+      "identical": true
+    }
+  },
+  "run_code_files": {
+    "code/common.py": "64baea078c7d0bd9e3a1c5885a20092d39842a5bc73b9afb944e3b43e2f1b520",
+    "code/engine/bench_entry.py": "14ae8344e54a2bc526598eeeae5b8e48affc2ecb32ffe5a7bb2bd65f01e1d53e",
+    "code/engine/build_variant.py": "1ed134806246cf21fb40f7c81c7ca7fadda6edf0074ea3323bbcdc72fa9c2c9e",
+    "code/engine/compare_bench.py": "576cdab6a9d05e882f250948c8dbb9b42a574534495f9f63bf9cd1594aa1e7aa",
+    "code/engine/install_fast.py": "f1b928d919cb4b8cd08ca499ade833d4315562b7cc56c9fb1a646a0386ecfe0c",
+    "code/engine/install_wmgraph.py": "b9a81cb2143275c42608afc147e96c8978cde96afdc881aee6de0855e0c30132",
+    "code/engine/learner_optimized.build.json": "c817cca84182efd276eb1007cd686b9970b13b9cdf5a46d021db0a69e5bb31b6",
+    "code/engine/learner_optimized.py": "26799073e95f56014e4c4737c8c510bb74c127453cdd8f9eeee717bf9e969c08",
+    "code/engine/queue_profile.py": "fb5d97e342229c0701194aeedeb2df794b44a30eb724d65987a6df51b8752630",
+    "code/engine/queue_validation.py": "b68ddd544b582db7ba81719befaa93f4701a63ed89e747e2eb7f867063f115fa",
+    "code/engine/run_bench.py": "d47ef92ae8f21ffac7f573d641dc6fb2b4e3e2991925c1b47617609c66762b8c",
+    "code/engine/run_parallel.py": "4cb8a257682b437e0c64eb5889ed1d6e4a2a0bab6ece78263ab894a9d8881c43",
+    "code/engine/run_resume_smoke.py": "03d364a63e8ad0174f0643fb7f373718de32b3863643bc7f1ae5c076e043ad20",
+    "code/engine/test_guards.py": "ba5c2f399675ea204c381735f0d996ad1f83573694016ae71e88425ad4dd8cc4",
+    "code/engine/train_entry_fast.py": "e7631a89aac30ddc9bf87a5dae63529b145c957be93006f7e82a30fd60280c71",
+    "code/engine/train_entry_wmgraph.py": "8fb4f64973fa7e7da7cb59feb7aac67029e4523d3562719a40590b4197425da8",
+    "code/engine/validate_wm_entry.py": "9d2c02683b9a2a92042b6c1ea4c367b0454a099bfbd5fb55df16fad7de6538f0",
+    "code/engine/wm_graph.py": "6d901e0d1ebb76a33b699b01a801c69ace05e37cbf71fcfff7dbfa6ae0d6a798",
+    "code/engine/wmgraph.build.json": "de848b28eee3ae91fa548de9e74154f2b8a585305a095e56c72bb8012e4e058f",
+    "code/eval_one.py": "4b8953bf770b0f2d3b8597a9093a5ff98292953a25602960d2da94018ab9d781",
+    "code/launch_train.py": "4e93a330aa629ee1a8fe9fa0f843d04cd5728ced33e5072a14d425779ce8de0c",
+    "code/pipeline.py": "e77ca29597cefc79b270f0738652a7be2df49b10f03f6db7277956ac3a7e035b",
+    "code/runtime/bootstrap_smoke.py": "7cfd89424a65f22b33225ca73e912e766855afcc2ba114db912d8ebd7ae18471",
+    "code/runtime/boundary_fix.py": "f3af1a9cbbb23355622aa64267e2e5fb7e0f4904de036d722535e93b64bf0a4c",
+    "code/runtime/download_bones.py": "1933c169ea76f71d99980147adcb4916d01907959a9ef92d087cf9eeb2fb63d5",
+    "code/runtime/early_eval_entry.py": "d8b6fe9478f9bad95b2e7a811eedd7327afd44e22617e9fe7991fd13f38de6ce",
+    "code/runtime/early_eval_watch.py": "2244f5d0389b22a6d47035aa825b649386253329f7b8f8d30a050b18700a2d79",
+    "code/runtime/eval_entry.py": "37ca1396a3b2c95caf29b43e098dd87ba8a0a7e30740969a31a271e38d14aa46",
+    "code/runtime/generate_pool.py": "070082d2f1f4b4f0cc84c731a513b820ccedb152c8066607bbc4bf30cafaf3df",
+    "code/runtime/hooks.py": "1b41033089d12c9d5613963970feea671cc003e78eea499ac539fb2b093a2119",
+    "code/runtime/joint_recipe_worker.py": "693ccbe668c0dfbf069f0b699b82e514ec33b37b340330e25074ea42073a7d94",
+    "code/runtime/launch_joint_recipe_sweep.py": "b2b8d5d68cc05a75b34579589fd35a1654b0d8a184739ef49e036829f75d8e45",
+    "code/runtime/launch_workers.py": "ff773e6fa961294c6ec230cb9a5b5297fac6b8f5832ba4b3b7c6c1cbac821172",
+    "code/runtime/make_early_eval_subset.py": "2c38a04b9515f5eede47ea0018f73bfd83d14566594d10e8e2f6b7725a733758",
+    "code/runtime/policy_dag.py": "f022fcf9f8aa5a5cbeeb88f9e8fd6c24ab9a83fd76363dd33200879129942cff",
+    "code/runtime/prepare_data.py": "2c1573681e04113927388a0b3226f5f2198bcf79ddda1a6c1b856844acb9468f",
+    "code/runtime/prepare_hard_eval_subset.py": "ca0a771450c27d3fb6fc503d221b89663bf6eb725c17ed6ce6af5cd35bc4a3a3",
+    "code/runtime/resume_bones.py": "0497c51231b559845aaa980b9651d05d8276523c8a7acd38c4732c94305cb62a",
+    "code/runtime/smoke_models.py": "8e2b6bb5d4b2e6bff04123928f04d29f91dad651a24e32df92f470509b9dfb00",
+    "code/runtime/specs.py": "b269a93376ecfa8c9f7dd72931d794e460133b408537b09ddf5a72094113e041",
+    "code/runtime/threshold_sweep_eval.py": "0e8349d8ea7af66656e0468f97f3eaf876e15eb764f08cf6db91436224c32e65",
+    "code/runtime/train_entry.py": "997caa3f2489d5d963b1f235fdf20e32531d1f9b1cac6bd921aad9c47c51c982",
+    "code/runtime/worker.py": "65c938c5dee1acce43a88af5f69fb863fb8228ebab371d9ee0ddd4ddf77e2cc2",
+    "code/train_entry.py": "e9552b2a0deb2f5318e9dafcecc54c8647f817a068ed9ea87bdf17db533a2d66",
+    "candidate_spec.json": "e4ffafc084042edd5e339e19c7a290821b4a3fd80b2822795caa5710969d374a"
+  }
+}

@@ -1,0 +1,14 @@
+SuperMimic Speedrun
+Copyright 2026 MetaCircle AI
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository includes code adapted from Uni-SuperMimic
+(https://github.com/Motphys/Uni-SuperMimic, Apache-2.0); its license and notices
+are reproduced in third_party/uni-supermimic/. engine/learner_optimized.py (in train/
+and in each record snapshot) is a modified copy of Uni-SuperMimic's learner.py; its
+changes are listed in learner_optimized.build.json next to it.
+
+Training data includes Motion Data by Bones Studio (https://bones.studio/).
+Use of the underlying dataset is subject to the BONES Motion Capture Dataset
+License Agreement. This repository contains no motion data.

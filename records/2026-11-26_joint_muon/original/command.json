@@ -1,0 +1,26 @@
+{
+  "args": [
+    "python",
+    "code/train_entry.py",
+    "algo.seed=1",
+    "algo.iterations=1600",
+    "algo.pi_opt=muon",
+    "algo.wm_opt=muon",
+    "algo.lr=0.0012",
+    "algo.wm_only_iters=100",
+    "algo.pi_ema=0.98",
+    "algo.no_sync=true",
+    "algo.compile=true",
+    "algo.amp=bf16",
+    "algo.ckpt_every=1000",
+    "algo.log_every=25",
+    "algo.log_backend=no_print",
+    "env.commands.motion.motion_files=[data/bones_seed_compact.pt]",
+    "training.log_dir=runs/r1600_env1",
+    "env.seed=1"
+  ],
+  "gpu": 2,
+  "iterations": 1600,
+  "smoke": false,
+  "resume": false
+}

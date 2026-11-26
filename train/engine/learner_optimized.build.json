@@ -1,0 +1,12 @@
+{
+  "source_sha256": "44e191badcb54be4248788cf1a8ca3d2a6990bf3e459f3c614515b3d5c7a7dc2",
+  "variant_sha256": "26799073e95f56014e4c4737c8c510bb74c127453cdd8f9eeee717bf9e969c08",
+  "changes": [
+    "one finite check after each group of 10 WM updates, covering all metrics",
+    "one combined policy/value finite check per iteration",
+    "telemetry host reads only at log boundaries, first and final iterations",
+    "GPU metric aggregation before host read"
+  ],
+  "training_math": "unchanged",
+  "nonfinite_behavior": "abort before policy update if any WM batch metric is nonfinite; does not publish checkpoint"
+}

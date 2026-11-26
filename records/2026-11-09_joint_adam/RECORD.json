@@ -1,0 +1,16 @@
+{
+  "run": "r2600_env1",
+  "iterations": 2600,
+  "algo_seed": 1,
+  "env_seed": 1,
+  "speedrun_seconds": 1654.1848791781813,
+  "speedrun_minutes": 27.56974798630302,
+  "norm_return": 0.936464250087738,
+  "passes_target": true,
+  "target": 0.9363,
+  "prefill_seconds": 6.827446460723877,
+  "n_failed": 433,
+  "gpu": 1,
+  "device": "NVIDIA H100 80GB HBM3",
+  "evaluation_returncode": 0
+}

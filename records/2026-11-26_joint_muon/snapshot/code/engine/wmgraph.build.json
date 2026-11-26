@@ -1,0 +1,11 @@
+{
+  "profile": "engineering_wmgraph_v1",
+  "sha256": {
+    "wm_graph.py": "6d901e0d1ebb76a33b699b01a801c69ace05e37cbf71fcfff7dbfa6ae0d6a798",
+    "install_fast.py": "f1b928d919cb4b8cd08ca499ade833d4315562b7cc56c9fb1a646a0386ecfe0c",
+    "learner_optimized.py": "26799073e95f56014e4c4737c8c510bb74c127453cdd8f9eeee717bf9e969c08",
+    "learner_optimized.build.json": "c817cca84182efd276eb1007cd686b9970b13b9cdf5a46d021db0a69e5bb31b6",
+    "train_entry_wmgraph.py": "8fb4f64973fa7e7da7cb59feb7aac67029e4523d3562719a40590b4197425da8"
+  },
+  "scope": "WM graph plus grouped finite guards and telemetry; unchanged training recipe"
+}

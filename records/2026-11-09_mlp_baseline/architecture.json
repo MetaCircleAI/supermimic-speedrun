@@ -1,0 +1,7 @@
+{
+  "kind": "native",
+  "name": "UniSuperMimic original native policy",
+  "origin": "upstream_native_policy",
+  "candidate_id": "original_native_v1",
+  "candidate_sha256": "upstream_native_policy_d78a5e2b"
+}

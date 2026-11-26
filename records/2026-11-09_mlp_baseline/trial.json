@@ -1,0 +1,11 @@
+{
+  "lr": 0.0004,
+  "wm_only_iters": 500,
+  "pi_ema": 0.995,
+  "trial_id": "original_native_dense_12000",
+  "reason": "upstream_native_policy_original_recipe",
+  "seed": 1,
+  "iterations": 12000,
+  "checkpoint_export_every": 100,
+  "full_state_checkpoint_every": 1000
+}
