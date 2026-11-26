@@ -33,7 +33,7 @@ Details are in [RULES.md](RULES.md).
 
 | # | Record time | Description | Date | Log | Contributors |
 | ---: | ---: | :--- | :--- | :--- | :--- |
-| 1 | ~65 min | Uni-SuperMimic baseline: MLP policy, Adam lr 4e-4 | 2026-11-09 | [log](records/2026-11-09_mlp_baseline/README.md) | Uni-SuperMimic authors; timed by @bangzhehuang (MetaCircle AI) |
+| 1 | ~65 min | Baseline: Uni-SuperMimic MLP policy and Adam recipe (lr 4e-4), with the engineering below | 2026-11-09 | [log](records/2026-11-09_mlp_baseline/README.md) | Uni-SuperMimic authors (policy, recipe); engineering and timing @bangzhehuang (MetaCircle AI) |
 | 2 | 27.57 min | Joint token policy (see below), Adam lr 8e-4, 2,600 iterations | 2026-11-09 | [log](records/2026-11-09_joint_adam/README.md) | @bangzhehuang (MetaCircle AI) |
 | 3 | **16.08 min** | Muon for policy and world model, lr 1.2e-3, 1,600 iterations | 2026-11-26 | [log](records/2026-11-26_joint_muon/README.md) | @bangzhehuang (MetaCircle AI) |
 
@@ -47,6 +47,13 @@ joint attention over them with separate projections for each group, refines each
 own SwiGLU, and reads the action out of all tokens. It has 1.67 M parameters versus 9.12 M.
 Code: [`train/runtime/policy_dag.py`](train/runtime/policy_dag.py), spec:
 [`train/candidate_spec.json`](train/candidate_spec.json).
+
+**Engineering shared by all rows.** Every row uses Uni-SuperMimic's BF16, `torch.compile`, fused
+rotations and Adam, and its no-sync training loop, plus two changes of ours that leave the training
+math unchanged: the world-model update runs as one captured CUDA graph, and finiteness checks and
+telemetry are grouped so the GPU waits on the host far less often ([`train/engine/`](train/engine/)).
+The two records also keep reset states off a clip's last frame, where no transition exists
+([`train/runtime/boundary_fix.py`](train/runtime/boundary_fix.py)).
 
 ## Run the current record
 
